@@ -1,21 +1,45 @@
-# portfolio
-This is my portfolio project.
+📌 Portfolio Website
 
-# React + Vite
+A modern, fully responsive personal portfolio built with React + Tailwind CSS.
+This website showcases my projects, skills, experience, and contact details in a clean and interactive layout.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
 
-Currently, two official plugins are available:
+Responsive design for all devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Smooth scrolling and section-based navigation
 
-## React Compiler
+Interactive animations with React libraries
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances.  
-To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Modern UI built using Tailwind CSS
 
-## Expanding the ESLint configuration
+Clean component-based structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled.  
-Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sections include About, Projects, Skills, and Contact
+
+Integrated links to GitHub and LinkedIn
+
+🧰 Tech Stack
+
+React.js
+
+Tailwind CSS
+
+Vite (optional: remove if not using)
+
+JavaScript (ES6+)
+
+React Icons
+
+Framer Motion / React Tilt / Typing Effect
+
+📂 Project Structure
+/src
+/components
+/assets
+/sections
+App.jsx
+main.jsx
+
+/public
+index.html
