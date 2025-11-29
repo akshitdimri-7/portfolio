@@ -2,10 +2,7 @@ import { education } from "../../constants"; // Import the education data
 
 const Education = () => {
   return (
-    <section
-      id="education"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-3"
-    >
+    <section className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient education-clip-line">
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">EDUCATION</h2>
@@ -43,7 +40,7 @@ const Education = () => {
                 index % 2 === 0
                   ? "sm:left-[calc(50%+10rem)]"
                   : "sm:left-[calc(50%-10rem)]"
-                }
+              }
               left-0
               transform -translate-x-1/2
               bg-gray-400
